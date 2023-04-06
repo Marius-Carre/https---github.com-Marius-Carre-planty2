@@ -1,3 +1,9 @@
+/* On applique une couleur sur les titres */
+h1{
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
 /* Import de la font  depuis Google Fonts et on l'applique sur tous les éléments de la page */
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap');
 
@@ -5,158 +11,102 @@ body * {
    font-family: 'Syne', sans-serif;
 }
 
-/* On applique une couleur sur les titres */
-h1{
-    font-weight: 800;
-    text-transform: capitalize;
-}
-
-/* On applique une couleur sur les paragraphes */
-p,a {
-   color: black;
-   padding-top: 25px;
-}
-/* La classe 'hover-effect' permettra de créer un effet de zoom quand l'on passera la souris par dessus les elements images enfants  */
-/* .hover-effect img {
-   transition: all 0.33s ease-in-out;
-   transform: scale(1) translateY(0px);
-}
-.hover-effect img:hover {
-   transition: all 0.33s ease-in-out;
-   transform: scale(1.05) translateY(-10px);
-} */
 
 /* NAV BAR & LOGO  */
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: white;
-}
-
-.menu-main-container {
-  background-color: #fff;
-  border-bottom: 1px solid #ccc;
-  
-}
-
-.menu-main {
-  list-style: none;
-  
-}
-
-.menu-main li {
-  display: inline-block;
-  
-}
-
-.menu-main a {
-  color: #DC9F96;
-  display: block;
-  font-weight: bold;
-  padding-top: 25px;
-  text-decoration: none;
-}
-
-.menu-main a:hover {
-  background-color: #C02E44;
-  color: #ffffff;
-}
-
-/* Styles for the dropdown submenus */
-.sub-menu {
-  background-color: #fff;
-  border: 1px solid #ccc;
-  display: none;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 9999;
-}
-
-.menu-main li:hover > .sub-menu {
-  display: block;
-  font-style: normal;
-font-weight: 700;
-font-size: 13px;
-line-height: 16px;
-}
-
-.sub-menu li {
-  display: block;
-  margin: 0;
-}
-
-.sub-menu a {
-  color: #333;
-  display: block;
-  padding: 10px 20px;
-  text-decoration: none;
-}
-
-.sub-menu a:hover {
-  background-color: #f2f2f2;
-  color: #000;
-}
 
 
-#site-title span {
-    display: none;
-}
-
-#site-title a {
-    position: absolute;
-    width: 200px;
-    height: 105px;    
-    background-image: url("planty/wp-content/themes/uploads/2023/Logo-source-768x131.png");
+.ast-builder-grid-row {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    grid-column-gap: 20px;
+    overflow-wrap: anywhere;
     
+    height: 80px;
 }
 
-#search{
-    display:none;
-}
-.entry-meta{
-    display: none;
-} 
-.menu ul a{
-    text-decoration: none;
-    list-style: none;
-    color: black;
-}
 
-li {
-    display: inline-block;
-    padding-right: 30px;
-    padding-top: 25px;
-}
 
-.menu ul{
-    margin-right: 50px;    
-}
-
-li:hover {
-    font-weight: 700;
+a.menu-link {
+  margin: 10px;
 
 }
 
-/* REMOVING ALL THEME HTML FROM THE PAGE */
-.header h2.entry-title , .post-edit-link, .entry-meta{
-    display: none;
+li .menu-item-14 .menu-item .menu-item-type-post_type .menu-item-object-page .current-menu-item .page_item .page-item-11 .current_page_item .menu-item-14 {
+  color: white;
 }
-.entry-summary{
-    display: none;
+.menu-item-14 {
+  color: white;  
 }
 
+#menu-item-14 {
+  background-color: #DC9F96 !important;
+}
+
+#menu-item-14:hover {
+  background-color: #C02E44 !important;
+}
+
+#menu-item-14 a {
+  color: white;
+}
+
+.main-header-menu .menu-item:nth-child(2) {
+  background-color: #DC9F96 !important;
+  width: 210px; 
+  height: 80px;
+}
+
+.main-header-menu .menu-item:nth-child(2) .menu-link {
+  color: white
+}
+
+#ast-hf-menu-1 li:nth-child(2) {
+  order: 2;
+}
+
+.ast-container, .ast-container-fluid {
+  
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+/* Mise en forme Page Accueil*/
+
+.ast-single-post.ast-page-builder-template .site-main > article, .woocommerce.ast-page-builder-template .site-main {
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.ast-page-builder-template .entry-content[ast-blocks-layout] > *, .ast-page-builder-template .entry-content[ast-blocks-layout] > .alignfull > * {
+  max-width: none;
+  
+}
+
+
+/* Mise en forme Page Admin*/
+
+/* Mise en forme Page Nous rencontrer*/
+
+/* Mise en forme Page Commander*/
 
 /* FOOTER */
 footer .site-info a {
   display: flex;
   justify-content: center;
-  text-decoration: none;
   text-align: center;
   padding-bottom: 15px;
   color: black;
   background-color: #ffffff;
+}
+
+.uagb-heading-text {
+font-family: 'Syne';
+font-style: normal;
+}
+
+.uagb-inline-editing {
+  padding-bottom: 80px;
 }
