@@ -1,7 +1,7 @@
 /*
  Theme Name:   Planty
  Theme URI:    https://openclassrooms.com/
- Description:  Thème Planty basé sur le thème TwentyTwenty
+ Description:  Thème Planty basé sur le thème astra
  Author:       Admin
  Author URI:   https://openclassrooms.com/
  Template:     astra
@@ -12,7 +12,52 @@
  Text Domain:  planty-tips
 */
 
-.nav-menu {
-    text-align: right;
-    color: black;
+
+li .menu-item-14 .menu-item .menu-item-type-post_type .menu-item-object-page .current-menu-item .page_item .page-item-11 .current_page_item .menu-item-14 {
+   color: white;
 }
+.menu-item-14 {
+   color: white;
+}
+
+#menu-item-14 {
+   background-color: #DC9F96 !important;
+}
+
+#menu-item-14:hover {
+   background-color: #C02E44 !important;
+}
+
+#menu-item-14 a {
+   color: white;
+}
+
+.main-header-menu .menu-item:nth-child(2) {
+   background-color: #DC9F96 !important; 
+}
+
+.main-header-menu .menu-item:nth-child(2) .menu-link {
+   color: white
+}
+
+#ast-hf-menu-1 li:nth-child(2) {
+   order: 2;
+}
+
+
+.ast-builder-menu-1 .menu-item > .menu-link {
+   display: none !important;
+}
+
+/* Mise en forme générale */
+h1 {
+    font-size: 38px;
+ }
+ 
+ h2 {
+    font-size: 30px;
+ }
+ 
+ p {
+    font-size: 20px;
+ }
