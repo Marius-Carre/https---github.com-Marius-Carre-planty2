@@ -1,13 +1,14 @@
 /* On applique une couleur sur les titres */
 h1{
-  font-weight: 800;
+    font-weight: 800;
+    text-transform: capitalize;
 }
 
 /* Import de la font  depuis Google Fonts et on l'applique sur tous les éléments de la page */
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap');
 
 body * {
- font-family: 'Syne', sans-serif;
+   font-family: 'Syne', sans-serif;
 }
 
 
@@ -15,104 +16,73 @@ body * {
 
 
 .ast-builder-grid-row {
-  display: grid;
-  grid-template-columns: auto auto;
-  align-items: center;
-  grid-column-gap: 20px;
-  overflow-wrap: anywhere;
-  
-  height: 80px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    grid-column-gap: 20px;
+    overflow-wrap: anywhere;
+    
+    height: 80px;
 }
 
-li.menu-item {
-  position: relative;
 
-}
 
 a.menu-link {
-  
-  position: relative;
-  display: block;
-  transition-duration: 0.2s;
-}
-
-
-
-#menu-item-15:hover {
-  transform: translate(10px,-1px);
-font-weight: 700;
-  transition-duration: 0.1s;
-  }
-
-  #menu-item-16:hover {
-    transform: translate(10px,-1px);
-font-weight: 700;
-  transition-duration: 0.1s;
-    }
-/*
-a.menu-link {
-position: relative;
-font-weight: 400;
+  margin: 10px;
 
 }
 
-a.menu-link:hover {
- font-weight: 700;
-  margin-left: 9px;
-  
-  }
-*/
 li .menu-item-14 .menu-item .menu-item-type-post_type .menu-item-object-page .current-menu-item .page_item .page-item-11 .current_page_item .menu-item-14 {
-color: white;
+  color: white;
 }
 .menu-item-14 {
-color: white;  
+  color: white;  
 }
 
 #menu-item-14 {
-background-color: #DC9F96 !important;
+  background-color: #DC9F96 !important;
 }
 
 #menu-item-14:hover {
-background-color: #C02E44 !important;
+  background-color: #C02E44 !important;
 }
 
 #menu-item-14 a {
-color: white;
+  color: white;
 }
 
 .main-header-menu .menu-item:nth-child(2) {
-background-color: #DC9F96 !important;
-width: 210px; 
-height: 80px;
+  background-color: #DC9F96 !important;
+  width: 210px; 
+  height: 80px;
 }
 
 .main-header-menu .menu-item:nth-child(2) .menu-link {
-color: white
+  color: white
 }
 
 #ast-hf-menu-1 li:nth-child(2) {
-order: 2;
+  order: 2;
 }
 
 .ast-container, .ast-container-fluid {
-
-padding-left: 0px;
-padding-right: 0px;
+  
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 
 /* Mise en forme Page Accueil*/
 
 .ast-single-post.ast-page-builder-template .site-main > article, .woocommerce.ast-page-builder-template .site-main {
-padding-top: 0px;
-padding-left: 0px;
-padding-right: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .ast-page-builder-template .entry-content[ast-blocks-layout] > *, .ast-page-builder-template .entry-content[ast-blocks-layout] > .alignfull > * {
-max-width: none;
-
+  max-width: none;
+  
 }
 
 
@@ -120,61 +90,16 @@ max-width: none;
 
 /* Mise en forme Page Nous rencontrer*/
 
-.editor-styles-wrapper .uagb-block-b0ccb7fc h1.uagb-heading-text {
-  font-style: normal;
-  color: #d2776a;
-  margin-bottom: 15px;
-  font-weight: 800;
-  font-size: 38px;
-  text-transform: uppercase;
-}
-
-
-
 /* Mise en forme Page Commander*/
-
-
-.spectra-image-gallery__media-thumbnail-caption {
-  width: 192.53px;
-  height: 128.36px;
-}
-
-.uagb-block-7e41e65e.wp-block-uagb-advanced-heading .uagb-heading-text {
-  color: #ffffff;
-  margin-bottom: 0px;
-  text-transform: uppercase;
-  font-weight: 800;
-  line-height: 46px;
-}
-
-.uagb-block-1c2550d7.wp-block-uagb-image .wp-block-uagb-image__figure figcaption {
-  color: #ffffff;
-  font-family: 'Syne';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 24px;
-  padding-bottom: 15px;
-  align-items: center;
-  text-align: center;
-}
-
-.background-image{
-  width: 192.53px;
-  height: 128.36px;
-  left: 292px;
-  top: 379px;
-
-}
 
 /* FOOTER */
 footer .site-info a {
-display: flex;
-justify-content: center;
-text-align: center;
-padding-bottom: 15px;
-color: black;
-background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 15px;
+  color: black;
+  background-color: #ffffff;
 }
 
 .uagb-heading-text {
@@ -182,21 +107,6 @@ font-family: 'Syne';
 font-style: normal;
 }
 
-.site-below-footer-wrap[data-section="section-below-footer-builder"] {
-  display: grid;
-  height: 60px;
-}
-
-element.style {
-  white-space: pre-wrap;
-  min-width: 1px;
-  background-color: rgb(59, 142, 70);
-  color: var(--ast-global-color-5);
-  font-size: 20px;
-  margin-right: 20px;
-  margin-left: 0px;
-  padding-left: 198px;
-  padding-right: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
+.uagb-inline-editing {
+  padding-bottom: 80px;
 }
