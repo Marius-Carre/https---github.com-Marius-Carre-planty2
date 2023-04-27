@@ -1,0 +1,29 @@
+.banniere-titre{
+    height: 129px;
+    width: 194px;    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.banniere-titre .titre{
+   position: relative;
+    z-index: 2;
+    margin: 0px;
+    padding: -10px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 32px;
+    font-style: normal;
+    display: flex;
+}

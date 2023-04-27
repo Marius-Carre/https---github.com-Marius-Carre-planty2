@@ -9,8 +9,8 @@ h1{
 
 body * {
    font-family: 'Syne', sans-serif;
+   
 }
-
 
 /* NAV BAR & LOGO  */
 
@@ -49,6 +49,17 @@ li .menu-item-14 .menu-item .menu-item-type-post_type .menu-item-object-page .cu
 
 #menu-item-14 a {
   color: white;
+}
+
+#menu-item-16:hover  {
+  font-weight: 700;
+  transform: translateX(5px);
+  
+}
+
+#menu-item-15:hover  {
+  font-weight: 700;
+  transform: translateX(5px);
 }
 
 .main-header-menu .menu-item:nth-child(2) {
@@ -92,12 +103,189 @@ li .menu-item-14 .menu-item .menu-item-type-post_type .menu-item-object-page .cu
 
 /* Mise en forme Page Commander*/
 
+
+
+body .wp-block-uagb-container>*:not(.wp-block-uagb-container):not(.wp-block-uagb-column):not(.wp-block-uagb-container):not(.wp-block-uagb-section):not(.uagb-container__shape):not(.uagb-container__video-wrap):not(.wp-block-uagb-image):not(.wp-block-spectra-pro-register):not(.uagb-slider-container) {
+  
+  width: 194px;
+}
+
+/*framboise*/
+.wp-block-uagb-container.uagb-block-9ead5236 {
+  box-shadow: 0px 0px #00000070;
+  overflow: visible;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-style: none;
+  background-color: #3b8e46;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+/*citron*/
+.wp-block-uagb-container.uagb-block-04948646 {
+  padding-right: 315px;
+
+  box-shadow: 0px 0px #00000070;
+  overflow: visible;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-style: none;
+  background-color: #3b8e46;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+/*pamplemousse*/
+.wp-block-uagb-container.uagb-block-03f14af9 {
+  box-shadow: 0px 0px #00000070;
+  overflow: visible;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-style: none;
+  background-color: #3b8e46;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+/*fraise*/
+.wp-block-uagb-container.uagb-block-9708502d {
+  
+  box-shadow: 0px 0px #00000070;
+  overflow: visible;
+  padding-left: 315px;
+  border-style: none;
+  background-color: #3b8e46;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.uagb-block-99f9eadd .uagb-heading-text {
+  font-weight: 700;
+  font-size: 30px;
+  margin-left: 95px;
+}
+
+/* [banniere-titre titre="FRAISE" src="http://localhost:81/planty2/wp-content/uploads/2023/04/jeremy-bezanger-0QgbyZdhX7k-unsplash-1.png"] */
+
+.wp-block-uagb-buttons .uagb-block-4522b2c3.wp-block-button.is-style-outline .uagb-button__wrapper .wp-block-button__link.uagb-buttons-repeater {
+  
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-color: #000;
+  border-style: solid;
+  width: 100px;
+  height: 56px;
+  margin-right: 17px;
+  margin-top: 15px;
+  background-color: #E0B9B4;
+}
+
+.wp-block-uagb-buttons .uagb-block-e61348aa .uagb-button__wrapper .uagb-buttons-repeater {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  color: var(--ast-global-color-5);
+  margin-top: 15px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100px;
+  height: 56px;
+  margin-right: 17px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.wp-block-uagb-buttons .uagb-block-67b9f36d .uagb-button__wrapper .uagb-buttons-repeater {
+  color: #ffffff;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  color: var(--ast-global-color-5);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100px;
+  height: 56px;
+  margin-right: 17px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.wp-block-uagb-buttons .uagb-block-d73b9c8d .uagb-button__wrapper .uagb-buttons-repeater {
+  color: #ffffff;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  color: var(--ast-global-color-5);
+  margin-top: 15px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100px;
+  height: 56px;
+  margin-right: 17px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.uagb-block-eb45b493.uagb-forms__outer-wrap {
+  padding-top: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  width: 400px;
+  margin-left: 45px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.uagb-block-57970d0a.uagb-forms__outer-wrap {
+  padding-top: 25px;
+  padding-right: 0px;
+  padding-bottom: 25px;
+  padding-left: -200px;
+  width: 400px;
+  margin-right: 0px;
+  margin-left: -355px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+}
+
 /* FOOTER */
 footer .site-info a {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
   color: black;
   background-color: #ffffff;
 }
@@ -108,5 +296,34 @@ font-style: normal;
 }
 
 .uagb-inline-editing {
-  padding-bottom: 80px;
+  padding-bottom: 0px;
 }
+
+
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 1080px) {
+	.uagb-block-99f9eadd .uagb-heading-text {
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 140px;
+  }
+	}
+
+
+@media screen and (max-width: 805px) {
+  .uagb-block-99f9eadd .uagb-heading-text {
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 150px;
+  }
+  }
+
+@media screen and (max-width: 780px) {
+  .uagb-block-99f9eadd .uagb-heading-text {
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 0px;
+  }
+  }
